@@ -1,11 +1,19 @@
+# Alaa Sherif | Interior Designer & CG Artist
 
-  # Premium Website Design
+![Alaa Sherif Portfolio](public/hero_3d_room.png)
 
-  This is a code bundle for Premium Website Design. The original project is available at https://www.figma.com/design/5qwwzadHYwuLT4NtdtZjBJ/Premium-Website-Design.
+Alaa Sherif is a Senior Interior Designer and CG Artist crafting luxury residential and commercial spaces, photorealistic 3D visualizations, and architectural designs across Egypt, UAE, and Saudi Arabia. 
 
-  ## Running the code
+## Specializations
+- 3D Visualization & Rendering (Corona Renderer, 3ds Max)
+- Luxury Interior Design
+- Architectural Visualization
+- Residential & Commercial Design
 
-  Run `npm i` to install the dependencies.
+---
 
-  Run `npm run dev` to start the development server.
-  
+### Design & Developed By
+**Aurangzeb Sunny**  
+LinkedIn: [https://www.linkedin.com/in/aurangzebsunny/](https://www.linkedin.com/in/aurangzebsunny/)
+
+© 2026 All rights reserved.
