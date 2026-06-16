@@ -206,19 +206,26 @@ export function Footer() {
             color: "#888",
             letterSpacing: "0.1em",
             lineHeight: 1.6,
+            display: "flex",
+            alignItems: "center",
+            flexWrap: "wrap",
+            gap: "12px"
           }}>
-            © 2026 Alaa Sherif. All rights reserved.<br />
-            <span style={{ opacity: 0.7 }}>Design & Developed By </span>
-            <a 
-              href="https://www.linkedin.com/in/aurangzebsunny/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              style={{ color: "#C0A060", textDecoration: "none", transition: "color 0.3s" }}
-              onMouseEnter={(e) => (e.currentTarget.style.color = "#E0C080")}
-              onMouseLeave={(e) => (e.currentTarget.style.color = "#C0A060")}
-            >
-              Aurangzeb Sunny
-            </a>
+            <span>© 2026 Alaa Sherif. All rights reserved.</span>
+            <span style={{ width: "3px", height: "3px", borderRadius: "50%", background: "rgba(255,255,255,0.3)" }}></span>
+            <span>
+              <span style={{ opacity: 0.7 }}>Design & Developed By </span>
+              <a 
+                href="https://www.linkedin.com/in/aurangzebsunny/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                style={{ color: "#C0A060", textDecoration: "none", transition: "color 0.3s" }}
+                onMouseEnter={(e) => (e.currentTarget.style.color = "#E0C080")}
+                onMouseLeave={(e) => (e.currentTarget.style.color = "#C0A060")}
+              >
+                Aurangzeb Sunny
+              </a>
+            </span>
           </div>
           <div style={{
             fontFamily: "'Inter', sans-serif",
