@@ -143,7 +143,7 @@ export function Contact() {
               {[
                 { icon: <Mail size={18} color="#C0A060" />, label: "Email", value: "alaa.sherif@email.com" },
                 { icon: <MapPin size={18} color="#C0A060" />, label: "Location", value: "Cairo, Egypt" },
-                { icon: <Link2 size={18} color="#C0A060" />, label: "LinkedIn", value: "linkedin.com/in/alaa-sherif" },
+                { icon: <Link2 size={18} color="#C0A060" />, label: "LinkedIn", value: "linkedin.com/in/alaa-sherif-403350255", href: "https://www.linkedin.com/in/alaa-sherif-403350255/" },
               ].map((item) => (
                 <div key={item.label} style={{ display: "flex", gap: "20px", alignItems: "center", paddingBottom: "24px", borderBottom: "1px solid rgba(200,200,200,0.05)" }}>
                   <div style={{
@@ -163,7 +163,20 @@ export function Contact() {
                       {item.label.toUpperCase()}
                     </div>
                     <div style={{ fontFamily: "'Inter', sans-serif", fontSize: "14px", color: "#C8C8C8" }}>
-                      {item.value}
+                      {item.href ? (
+                        <a 
+                          href={item.href} 
+                          target="_blank" 
+                          rel="noopener noreferrer" 
+                          style={{ color: "#C8C8C8", textDecoration: "none", transition: "color 0.3s" }} 
+                          onMouseEnter={(e) => (e.currentTarget.style.color = "#FFFFFF")} 
+                          onMouseLeave={(e) => (e.currentTarget.style.color = "#C8C8C8")}
+                        >
+                          {item.value}
+                        </a>
+                      ) : (
+                        item.value
+                      )}
                     </div>
                   </div>
                 </div>

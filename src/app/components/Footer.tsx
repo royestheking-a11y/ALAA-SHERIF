@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 
 const socials = [
-  { label: "LinkedIn", href: "#" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/alaa-sherif-403350255/" },
   { label: "Behance", href: "#" },
   { label: "Instagram", href: "#" },
 ];
@@ -100,6 +100,8 @@ export function Footer() {
                 <a
                   key={s.label}
                   href={s.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   style={{
                     fontFamily: "'Inter', sans-serif",
                     fontSize: "9px",
